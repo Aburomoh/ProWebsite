@@ -44,6 +44,11 @@ h3 {
 	margin: 0;
 }
 
+#scrollup {
+	position: relative;
+	bottom: 0vh;
+}
+
 nav {
 	opacity: 0;
 	z-index: 100;

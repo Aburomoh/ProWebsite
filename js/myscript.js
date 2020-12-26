@@ -4,8 +4,10 @@ function myFunction(){
 	console.log("You scrolled" + times + " times");
 	times++;
 	console.log(window.scrollY);
+	var MaxEffect = 400;
 	//document.getElementById("banner").style.borderRadius = window.scrollY/5 + "vw";
-	document.getElementById("banner").style.opacity = 1-window.scrollY/400;
-	document.getElementsByTagName("nav")[0].style.opacity = window.scrollY/400;
+	document.getElementById("banner").style.opacity = 1-window.scrollY/MaxEffect;
+	document.getElementsByTagName("nav")[0].style.opacity = window.scrollY/MaxEffect;
+	document.getElementById("scrollup").style.bottom = window.scrollY/4 + "vh";
 	//document.getElementById("banner").style.height = (120 - window.scrollY/4) + "vw";
 }
