@@ -18,7 +18,7 @@ body{
 	background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-position: center top;
-  	height: 120vh;
+  	height: 100vh;
   	background-size: cover;
 	padding-top: 10px;
 	margin: 0;
@@ -48,8 +48,10 @@ body{
 	margin: 0;
 }
 
-nav>p {
-	display: inline-block;
+nav {
+	background: #AA0000;
+	padding-bottom: 20px;
+	height: 20px;
 }
 
 p.Mywebsite{
@@ -72,7 +74,7 @@ b{
     font-size: 20px
 }
 img{
-    width: 30%;
+    width: 98%;
 }
 
 div.Maincontent {
@@ -81,7 +83,7 @@ div.Maincontent {
 }
 
 /* On screens that are 992px or less, set the background color to blue */
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 600px) {
 	body {
 	background-color: blue;
 	}
@@ -94,15 +96,15 @@ div.Maincontent {
 }
 
 /* On screens that are 600px or less, set the background color to olive */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 992px) {
 	body {
 	background-color: olive;
 	}
 	img{
-	width: 98%;
+	width: 30%;
 	}
 	#banner {
-	height: 45vh;
+	height: 120vh;
 	}
 }
 
