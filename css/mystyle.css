@@ -19,7 +19,7 @@ h3 {
 	margin: 2vh;
 }
 
-#banner {
+.banner {
 	display: block;
 	background-image: url("../imgs/background.jpg");
 	background-repeat: no-repeat;
