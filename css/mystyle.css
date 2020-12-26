@@ -4,8 +4,11 @@
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
-	background-color: tan;
     background: #001e4a;
     color: white;
     text-align: center;
