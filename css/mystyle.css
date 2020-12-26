@@ -1,0 +1,110 @@
+/* Set the background color of body to tan */
+
+* {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body{
+	background-color: tan;
+    background: #001e4a;
+    color: white;
+    text-align: center;
+    margin: 0;
+    }
+
+#banner {
+	display: block;
+	background-image: url("../imgs/background.jpg");
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center top;
+  	height: 120vh;
+  	background-size: cover;
+	padding-top: 10px;
+	margin: 0;
+	border: none;
+	border-radius: 1vw;
+	font-size: 2rem;
+	font-weight: bold;
+	color: #AA0000;
+	text-shadow: 5px 5px #AA000088;
+}
+
+.welcome{
+    color: #56f921;
+    font-size: 27px;
+    font-weight: 
+}
+.top span{
+    color: yellow;
+}
+.info{
+    border: 2px solid red;
+    padding: 20px;
+    margin: 10px;
+}
+
+#main {
+	margin: 0;
+}
+
+nav>p {
+	display: inline-block;
+}
+
+p.Mywebsite{
+	position: fixed;
+  	top: 0;
+  	left: 4vw;
+  	font-size: 1.4em;
+  	margin: 0;
+}
+
+p.Navlink {
+	position: fixed;
+  	top: 0;
+  	right: 4vw;
+  	margin: 0;
+}
+
+b{
+    color: red;
+    font-size: 20px
+}
+img{
+    width: 30%;
+}
+
+div.Maincontent {
+	display: inline-block;
+	width: 50%;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media only screen and (max-width: 992px) {
+	body {
+	background-color: blue;
+	}
+	img{
+	width: 40%;
+	}
+	#banner {
+		height: 60vh;
+	}
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media only screen and (max-width: 600px) {
+	body {
+	background-color: olive;
+	}
+	img{
+	width: 98%;
+	}
+	#banner {
+	height: 45vh;
+	}
+}
+
+
+*{border: 1px red solid;}
