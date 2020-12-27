@@ -21,6 +21,11 @@ h1,h2,h3 {
 	padding: 2vh;
 }
 
+#MyName {
+	color: gold;
+
+}
+
 .banner {
 	display: block;
 	background-image: url("../imgs/background.jpg");
