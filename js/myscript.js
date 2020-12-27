@@ -1,14 +1,18 @@
 var MaxEffect = document.documentElement.clientHeight;
 
+function myclickFunction(){
+	window.scroll(0,MaxEffect*1.1);
+}
+
 function myscrollFunction(){
 	//console.log(window.scrollY);
 	//document.getElementById("banner").style.borderRadius = window.scrollY/5 + "vw";
 
-	document.getElementsByClassName("banner")[0].style.opacity = 1-0.9*window.scrollY/MaxEffect;
+	document.getElementsByClassName("banner")[0].style.opacity = 1-window.scrollY/MaxEffect;
 	document.getElementsByTagName("nav")[0].style.opacity = window.scrollY/MaxEffect;
 
-	if (100-(window.scrollY/MaxEffect*100)>0) {
-		document.getElementById("scrollup").style.top = Math.min(100-(window.scrollY/MaxEffect*100),100) + "vh";
+	if (window.scrollY/MaxEffect<1) {
+		document.getElementById("scrollup").style.top = Math.min(20-(window.scrollY/MaxEffect*20),20) + "vh";
 	}
 	else {
 		document.getElementById("scrollup").style.top = 0;

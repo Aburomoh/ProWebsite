@@ -23,7 +23,7 @@ h1,h2,h3 {
 
 #MyName {
 	color: gold;
-
+	text-decoration: none;
 }
 
 .banner {
@@ -33,11 +33,11 @@ h1,h2,h3 {
   	background-attachment: fixed;
   	background-position: center top;
   	background-size: cover;
-  	height: 88vh;
+  	height: 108vh;
   	width: 100%;
 	padding-top: 32vh;
 	margin: 0;
-	margin-bottom: -20vh;
+	margin-bottom: -40vh;
 	border: none;
 	border-radius: 1vw;
 	font-size: 8vw;
@@ -61,7 +61,7 @@ h1,h2,h3 {
 #scrollup {
 	margin-top: 20vh;
 	position: relative;
-	top: 100vh;
+	top: 20vh;
 }
 
 nav {
