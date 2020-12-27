@@ -1,7 +1,7 @@
 var MaxEffect = document.documentElement.clientHeight;
 
 function myscrollFunction(){
-	console.log(window.scrollY);
+	//console.log(window.scrollY);
 	//document.getElementById("banner").style.borderRadius = window.scrollY/5 + "vw";
 
 	document.getElementsByClassName("banner")[0].style.opacity = 1-0.5*window.scrollY/MaxEffect;
@@ -14,5 +14,5 @@ function myscrollFunction(){
 		document.getElementById("scrollup").style.top = 0;
 	}
 
-	console.log(100-(window.scrollY/MaxEffect*100))
+	//console.log(100-(window.scrollY/MaxEffect*100))
 }
