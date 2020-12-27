@@ -13,10 +13,12 @@ body{
     color: white;
     text-align: center;
     margin: 0;
+    padding: 0;
     }
 
-h3 {
-	margin: 2vh;
+h1,h2,h3 {
+	margin: 0vh;
+	padding: 2vh;
 }
 
 .banner {
@@ -26,9 +28,11 @@ h3 {
   	background-attachment: fixed;
   	background-position: center top;
   	background-size: cover;
-  	height: 80vh;
-	padding-top: 35vh;
+  	height: 88vh;
+  	width: 100%;
+	padding-top: 32vh;
 	margin: 0;
+	margin-bottom: -20vh;
 	border: none;
 	border-radius: 1vw;
 	font-size: 8vw;
@@ -37,21 +41,22 @@ h3 {
 	text-shadow: 5px 5px #AA000088;
 }
 
+/*.banner p{
+	font-size: 6vw;
+}*/
+
 .info{
     border: 2px solid red;
     padding: 20px;
     margin: 1vw 1vh;
-    font-size: 4vw
+    font-size: 4vw;
 }
 
-#main {
-	margin: 0;
-	padding: 2vw;
-}
 
 #scrollup {
+	margin-top: 20vh;
 	position: relative;
-	bottom: 0vh;
+	top: 100vh;
 }
 
 nav {
@@ -88,21 +93,21 @@ b{
 }
 
 img{
-    width: 100%;
+    width: 50%;
 }
 
 div.Maincontent {
 	display: inline-block;
 	width: 100%;
-	margin: 0 auto;
 	font-size: 5vw;
 }
 div.Maincontent>p {
 	text-align: left;
+	padding: 2vw;
 }
 
 
-/* On screens that are 600px or less, set the background color to olive */
+/* On screens that are 600px or less, set the background color to olive
 @media only screen and (min-width: 992px) {
 	body {
 	background-color: olive;
@@ -119,4 +124,4 @@ div.Maincontent>p {
 }
 
 
-/**{border: 1px red solid;}*/
+*{border: 1px red solid;}*/
